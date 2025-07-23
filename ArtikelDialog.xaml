@@ -1,0 +1,38 @@
+﻿<Window x:Class="LagerverwaltungApp.ArtikelDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Artikel anlegen" Height="700" Width="1000">
+    <ScrollViewer>
+        <StackPanel Margin="10">
+            <Label Content="Name" />
+            <TextBox x:Name="NameBox" />
+
+            <Label Content="Ort" />
+            <TextBox x:Name="OrtBox" />
+
+            <Label Content="Regal" />
+            <TextBox x:Name="RegalBox" />
+
+            <Label Content="Kiste" />
+            <TextBox x:Name="KisteBox" />
+
+            <Label Content="Schublade" />
+            <TextBox x:Name="SchubladeBox" />
+
+            <Label Content="Schrank" />
+            <TextBox x:Name="SchrankBox" />
+
+            <Label Content="Anwendung" />
+            <TextBox x:Name="AnwendungBox" />
+
+            <Label Content="Menge" />
+            <TextBox x:Name="MengeBox" />
+
+            <Label Content="Internet Hinweis" />
+            <TextBox x:Name="HinweisBox" />
+
+            <Button Content="Bild wählen" Click="BildWaehlen_Click" Margin="0 10"/>
+            <Button Content="Speichern" Click="Speichern_Click"/>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

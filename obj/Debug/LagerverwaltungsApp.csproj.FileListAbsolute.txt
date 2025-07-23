@@ -1,0 +1,13 @@
+C:\Users\melly\OneDrive\Schule\prgrammieren_Mel\LagerverwaltungsApp\obj\Debug\LagerverwaltungsApp.csproj.AssemblyReference.cache
+C:\Users\melly\OneDrive\Schule\prgrammieren_Mel\LagerverwaltungsApp\obj\Debug\ArtikelDialog.baml
+C:\Users\melly\OneDrive\Schule\prgrammieren_Mel\LagerverwaltungsApp\obj\Debug\MainWindow.baml
+C:\Users\melly\OneDrive\Schule\prgrammieren_Mel\LagerverwaltungsApp\obj\Debug\ArtikelDialog.g.cs
+C:\Users\melly\OneDrive\Schule\prgrammieren_Mel\LagerverwaltungsApp\obj\Debug\MainWindow.g.cs
+C:\Users\melly\OneDrive\Schule\prgrammieren_Mel\LagerverwaltungsApp\obj\Debug\App.g.cs
+C:\Users\melly\OneDrive\Schule\prgrammieren_Mel\LagerverwaltungsApp\obj\Debug\LagerverwaltungsApp_MarkupCompile.cache
+C:\Users\melly\OneDrive\Schule\prgrammieren_Mel\LagerverwaltungsApp\obj\Debug\LagerverwaltungsApp.g.resources
+C:\Users\melly\OneDrive\Schule\prgrammieren_Mel\LagerverwaltungsApp\obj\Debug\LagerverwaltungsApp.Properties.Resources.resources
+C:\Users\melly\OneDrive\Schule\prgrammieren_Mel\LagerverwaltungsApp\obj\Debug\LagerverwaltungsApp.csproj.GenerateResource.cache
+C:\Users\melly\OneDrive\Schule\prgrammieren_Mel\LagerverwaltungsApp\obj\Debug\LagerverwaltungsApp.csproj.CoreCompileInputs.cache
+C:\Users\melly\OneDrive\Schule\prgrammieren_Mel\LagerverwaltungsApp\obj\Debug\LagerverwaltungsApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\melly\OneDrive\Schule\prgrammieren_Mel\LagerverwaltungsApp\obj\Debug\LagerverwaltungsApp.exe.config

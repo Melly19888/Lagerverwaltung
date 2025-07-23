@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <!-- Standardkonfigurationen -->
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <!-- Hier das .NET Framework festlegen. Mindestens v4.6.1 für EF Core 3.1 -->
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <!-- WPF-Anwendung -->
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LagerverwaltungsApp</RootNamespace>
+    <AssemblyName>LagerverwaltungsApp</AssemblyName>
+    <ProjectGuid>{7B5EA908-DE1A-470D-9429-C5FE8FF93B0C}</ProjectGuid>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <!-- WPF-spezifische Imports, damit XAML korrekt kompiliert wird -->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.WinFX.targets" />
+  <ItemGroup>
+    <!-- Standard-Referenzen für WPF -->
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.7.1\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <!-- EF Core wird über packages.config eingebunden -->
+  </ItemGroup>
+  <!-- Hier könntest du weitere .cs-Dateien aufführen, falls du nicht 'Include="*.cs"' verwenden willst. -->
+  <ItemGroup>
+    <Compile Include="App.xaml.cs" />
+    <Compile Include="MainWindow.xaml.cs" />
+    <Compile Include="ArtikelDialog.xaml.cs" />
+    <Compile Include="Data\AppDbContext.cs" />
+    <Compile Include="Models\Artikel.cs" />
+    <!-- usw. -->
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ArtikelDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

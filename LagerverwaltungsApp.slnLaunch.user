@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "Neues Profil",
+    "Projects": [
+      {
+        "Path": "LagerverwaltungApp.csproj",
+        "Action": "StartWithoutDebugging"
+      }
+    ]
+  },
+  {
+    "Name": "Neues Profil (1)",
+    "Projects": []
+  },
+  {
+    "Name": "Neues Profil (2)",
+    "Projects": []
+  }
+]

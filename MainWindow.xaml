@@ -1,0 +1,12 @@
+﻿<Window x:Class="LagerverwaltungApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lagerverwaltung" Height="700" Width="1000">
+    <Grid Margin="10">
+        <StackPanel>
+            <Button Content="Artikel hinzufügen" Click="BtnHinzufuegen_Click" Width="200" Margin="0 0 0 10"/>
+            <DataGrid x:Name="ArtikelGrid" AutoGenerateColumns="True" Height="300"/>
+        </StackPanel>
+    </Grid>
+</Window>
+
